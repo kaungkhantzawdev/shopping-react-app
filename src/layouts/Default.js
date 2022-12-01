@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import Home from "../pages/Home";
 
@@ -7,6 +8,7 @@ const Default = () => {
             <Navigation />
             <div className="container">
                 <Home/>
+                <Footer/>
             </div>
         </div>
      );
